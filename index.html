@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle: Personal Assistant</title>
+<meta name="description" content="Oracle is a private, personal AI assistant that helps its developer manage appointments, notes, follow-ups and daily tasks.">
+<style>
+  :root {
+    --bg: #0a0c0f;
+    --panel: #12161c;
+    --edge: #2a2f38;
+    --gold: #e3a93b;
+    --gold-soft: #f2c46d;
+    --text: #e6e8eb;
+    --muted: #9aa3ad;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 64px; }
+  header { border-bottom: 1px solid var(--edge); padding-bottom: 28px; margin-bottom: 36px; }
+  .tag {
+    display: inline-block;
+    font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--gold); border: 1px solid var(--gold); padding: 3px 10px;
+  }
+  h1 {
+    font-size: 56px; letter-spacing: 0.12em; margin: 18px 0 6px;
+    color: var(--gold-soft); font-weight: 600;
+  }
+  .lead { font-size: 19px; color: var(--muted); margin: 0; max-width: 640px; }
+  h2 {
+    font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--gold); margin: 40px 0 14px;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--edge);
+    border-left: 3px solid var(--gold); padding: 16px 18px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 16px; color: var(--text); }
+  .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--gold-soft); }
+  .note {
+    background: var(--panel); border: 1px solid var(--edge); padding: 18px 20px;
+  }
+  footer {
+    margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--edge);
+    color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 8px 24px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="tag">Personal project &middot; Not a public service</span>
+    <h1>ORACLE</h1>
+    <p class="lead">A private AI assistant that helps its developer keep track of appointments, notes, follow-ups and everyday tasks, from a computer or a phone.</p>
+  </header>
+
+  <h2>What Oracle does</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Calendar &amp; appointments</h3>
+      <p>Reads the developer's Google Calendar and books, moves or cancels appointments when asked.</p>
+    </div>
+    <div class="card">
+      <h3>Notes &amp; follow-ups</h3>
+      <p>Saves notes and reminders so nothing important slips through the cracks.</p>
+    </div>
+    <div class="card">
+      <h3>Morning brief</h3>
+      <p>Summarizes the day ahead: upcoming appointments and open follow-ups.</p>
+    </div>
+    <div class="card">
+      <h3>Phone access</h3>
+      <p>Takes requests and sends alerts through a private messaging bot that only the developer can use.</p>
+    </div>
+    <div class="card">
+      <h3>Voice</h3>
+      <p>Lets the developer talk to Oracle and hear spoken replies.</p>
+    </div>
+    <div class="card">
+      <h3>Email drafts</h3>
+      <p>When enabled, helps write and organize email drafts for the developer to review before sending.</p>
+    </div>
+  </div>
+
+  <h2>Who can use it</h2>
+  <div class="note">
+    <p>Oracle is a personal project. It runs on the developer's own computer and is used only by the developer and their household, signed in with the developer's own accounts. There are no public sign-ups, and Oracle is not sold or offered to anyone else.</p>
+    <p style="margin:0">When Oracle connects to Google, it asks for access only to the developer's own Google account, and only to the parts it needs to do the jobs listed above.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>Oracle doesn't sell data, show ads, or share Google data with anyone except as described in the privacy policy. Read the full <a href="privacy.html">Privacy Policy</a> to see exactly what Oracle accesses, where it's stored, and how to remove access.</p>
+
+  <footer>
+    <span>&copy; 2026 Oracle</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <span>Contact: <a href="mailto:jcdockery22@gmail.com">jcdockery22@gmail.com</a></span>
+  </footer>
+</div>
+</body>
+</html>
